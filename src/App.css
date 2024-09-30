@@ -29,7 +29,7 @@
   transform: rotateY(180deg);
 }
 .card::after {
-  content: 'оборотная сторона карточки 1';
+  content:attr(data-back);
   position: absolute;
   inset:0;
   display: flex;
