@@ -1,0 +1,31 @@
+.control-panel { 
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+.btn-control {
+margin: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px outset #0016FF;
+    background-color: cornflowerblue;
+    color: navy;
+    transition: 0.3s;
+}
+.btn-control:hover,
+.btn-control:focus {
+    background-color: lightblue;
+}
+
+.btn-control:disabled {
+    background-color:lightgray;
+    box-shadow: 0px 0px 0px 1px grey
+}
+
+h2 {
+    text-align: center;
+    margin: 30px;
+}
