@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  height: 1000px
+}
+
+.card {
+  width: fit-content;
+  height: fit-content;
+}
+
+.card-eleph-1 {
+  grid-row: 1/1;
+  grid-column: 1/1;
+  background-image: url("../src/img/test.jpg");
+  object-fit: fill;
+}
